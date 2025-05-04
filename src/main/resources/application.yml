@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: upbit-exchange
+
+upbit:
+  access-key: ${UPBIT_ACCESS_KEY}
+  secret-key: ${UPBIT_SECRET_KEY}
+  base-url: https://api.upbit.com/v1
+
+logging:
+  level:
+    com.example.exception: DEBUG
+    org.springframework.web: INFO 
